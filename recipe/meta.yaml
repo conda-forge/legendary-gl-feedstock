@@ -1,5 +1,5 @@
 {% set name = "legendary-gl" %}
-{% set version = "0.20.15" %}
+{% set version = "0.20.15.post1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/legendary-gl-{{ version }}.tar.gz
-  sha256: 73bd6daa3289fc320b84594177576981fc0d31a7b932dae8210a262bd489b393
+  sha256: 79cd10103655d8c23623a0c15576e4c7e9244c56f67d4fa69a9e12e771c789a3
 
 build:
   number: 0
