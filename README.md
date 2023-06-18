@@ -1,11 +1,11 @@
-About legendary-gl
-==================
+About legendary-gl-feedstock
+============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/legendary-gl-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/derrod/legendary
 
 Package license: GPL-3.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/legendary-gl-feedstock/blob/main/LICENSE.txt)
 
 Summary: Free and open-source replacement for the Epic Games Launcher application
 
