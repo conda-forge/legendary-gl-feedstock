@@ -1,5 +1,5 @@
 {% set name = "legendary-gl" %}
-{% set version = "0.20.34" %}
+{% set version = "0.21.0" %}
 
 
 package:
@@ -7,11 +7,11 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/legendary-gl-{{ version }}.tar.gz
-  sha256: 3a528dea82cd5c163eedcf6fbcaa61ac4bd5da3322a65c10f00ce859b60e9611
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace('-', '_') }}-{{ version }}.tar.gz
+  sha256: 88f90cdcb146d1a9253e6885a590d1ca0420d52d40460f1164f7b0c6991b7522
 
 build:
-  number: 1
+  number: 0
   noarch: python
   entry_points:
     - legendary = legendary.cli:main
