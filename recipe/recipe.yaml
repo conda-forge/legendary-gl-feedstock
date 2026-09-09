@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: legendary-gl
-  version: "0.21.0"
+  version: "0.21.1"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name | replace('-', '_') }}-${{ version }}.tar.gz
-  sha256: 88f90cdcb146d1a9253e6885a590d1ca0420d52d40460f1164f7b0c6991b7522
+  sha256: e16301f3a66d3bda80a9bca54881edc2cb8868f962ebdb58314a3d62d050c9dd
 
 build:
   number: 0
